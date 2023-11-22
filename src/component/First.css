@@ -161,7 +161,7 @@
   display: flex;
   margin: 0px;
   gap: 16px;
-  font-family: Poppins;
+  font-family: Poppins-Light ;
   color: #797979;
 }
 
@@ -294,7 +294,7 @@
   align-items: flex-start;
   padding: 0 var(--padding-5xs) 0 0;
   color: var(--color-black);
-  font-family: var(--font-avenir);
+  font-family: 'Poppins-Light ';
 }
 .skuParent {
   width: 883px;
@@ -387,7 +387,7 @@
   height: 627px;
   font-size: var(--font-size-5xl);
   color: var(--color-royalblue);
-  font-family: var(--font-abeezee);
+  font-family: 'Poppins-Light ';
 }
 .desktop2 {
   position: relative;
@@ -398,7 +398,7 @@
   text-align: left;
   font-size: var(--font-size-xs);
   color: var(--color-black);
-  font-family: var(--font-inter);
+  font-family: 'Poppins-Light ';
 }
 
 @media screen and (max-width: 1200px) {
@@ -633,7 +633,7 @@
   top: 500px;
   line-height: 20px;
   color: black;
-  font-family: Poppins;
+  font-family: 'Poppins-Light ';
   font-size: 30px;
   font-weight: 600;
 }
@@ -653,7 +653,7 @@
   align-items: flex-start;
   padding: 0 var(--padding-5xs) 0 0;
   color: var(--color-black);
-  font-family: var(--font-avenir);
+  font-family: 'Poppins-Light ';
 }
 .sku-parent {
   top: 800px;
@@ -750,7 +750,7 @@
   height: 530px;
   font-size: var(--font-size-5xl);
   color: black;
-  font-family: var(--font-abeezee);
+  font-family: 'Poppins-Light ';
   background-color: rgba(121, 121, 121, 0.05);
 }
 .desktop-5-inner,
@@ -910,7 +910,7 @@
   font-size: 20px;
   color: black;
   height: 100%;
-  font-family: inter;
+  font-family: 'Poppins-Light ';
   margin: 10%;
 }
 
@@ -1008,7 +1008,7 @@
   width: 1310px;
   left: 68px;
   padding: 20px;
-  font-family: var(--font-inter);
+  font-family: 'Poppins-Light-Bold';
   color: black;
   font-weight: 500;
   background-color: rgba(121, 121, 121, 0.05);
@@ -1063,7 +1063,7 @@
   top: 3727px;
   left: 69px;
   line-height: 20px;
-  font-family: var(--font-inter);
+  font-family: 'Poppins-Light ';
   color: black;
   font-weight: 500;
   height: 50px;
@@ -1076,4 +1076,38 @@
   background-color: white;
   padding: 30px;
   border-radius: 15px;
+}
+
+
+
+
+
+@media (min-width: 1400px) { 
+  .desktop-5, .rectangle-parent, .desktop-5-inner{
+     width:  1315.9px;
+     
+  }
+  .group-child{
+    width: 600px ;
+  }
+  .rectangle-group{
+    width: 200px;
+  }
+  .frame-parent, .column{
+    width: 100%;
+}
+.desktop-5-child, .column{
+  width:  1315.9px;
+}
+}
+
+
+
+@media (max-width: 1000px)  {
+  .frame-parent, .column{
+      width: 80%;
+  }
+  .desktop-5-child, .column{
+    width: 80%;
+  }
 }
